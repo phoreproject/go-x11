@@ -12,7 +12,7 @@ Usage
 
 	import (
 		"fmt"
-		"gitlab.com/nitya-sattva/go-x11"
+		"github.com/phoreproject/go-x11"
 	)
 
 	func main() {

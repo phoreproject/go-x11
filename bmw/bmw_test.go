@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"gitlab.com/nitya-sattva/go-x11/nist"
+	"github.com/phoreproject/go-x11/nist"
 )
 
 ////////////////

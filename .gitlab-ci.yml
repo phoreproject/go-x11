@@ -6,8 +6,8 @@ stages:
 go_tests:
   stage: test
   script:
-    - mkdir -p $GOPATH/src/gitlab.com/nitya-sattva/
-    - cd $GOPATH/src/gitlab.com/nitya-sattva/
+    - mkdir -p $GOPATH/src/github.com/phoreproject/
+    - cd $GOPATH/src/github.com/phoreproject/
     - go version
     - git clone https://gitlab.com/$CI_PROJECT_NAMESPACE/go-x11.git -b $CI_BUILD_REF_NAME
     - go test ./go-x11/nist -coverprofile ./nist.log
